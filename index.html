@@ -13,17 +13,17 @@
     <p>Everyone <U><strong>MUST</strong></U> be here !</p>
     <nav>
             <a href="#attendance">Attendance      |      </a>
-            <a href="#agenda">Agenda      |      </a></li>
-            <a href="#unfinished business">Unfinished Business      |      </a>
-            <a href="#new business">New Business      |      </a>
-            <a href="#miscellanous comments">Miscellanous Comments      |      </a>
+            <a href="#agenda">Agenda      |      </a>
+            <a href="#unfinishedbusiness">Unfinished Business      |      </a>
+            <a href="#newbusiness">New Business      |      </a>
+            <a href="#miscellanouscomments">Miscellanous Comments      |      </a>
             <a href="#presented">Presented      |      </a>
             <a href="#audio-video">Audio & Video</a>
     </nav>
 
     <br>
     <br>
-    <div id="attendance list">
+    <div id="attendancelist">
         <h2>Attendance List</h2>
         <ul>
             <li>Gabriel </li>
@@ -61,21 +61,21 @@
         </details>
     </div>
     <br>
-    <div id="unfinished business">
+    <div id="unfinishedbusiness">
         <h2>Unfinished Business</h2>
         <ul>
             <li>HTML : Creating HTML Document</li>
         </ul>
     </div>
     <br>
-    <div id ="new business">
+    <div id ="newbusiness">
         <h2>New Business</h2>
         <ul>
             <li>CSS</li>
             <li>JavaScript</li>
         </ul>
     </div>
-    <div id="miscellanous comments">
+    <div id="miscellanouscomments">
         <h2>Miscellanous Comments</h2>
         <p> Everyone should look at the links <a href="#linkref">above</a> </p>
         <h3>Q&A</h3>
@@ -86,8 +86,8 @@
     </div>
     <div id="presented">
         <h2>Architecture / Things that were presented</h2>
-        <img src="/screenshots/example.png" width = 1024 height = 1024>
-        <img src="https://www.shutterstock.com/shutterstock/photos/184168097/display_1500/stock-photo-business-plan-business-sketches-on-the-office-whiteboard-184168097.jpg">
+        <img src="https://github.com/cypscl/Lab2_Starter/blob/main/screenshots/example.png" alt="example" width = 1024 height = 1024>
+        <img src="https://www.shutterstock.com/shutterstock/photos/184168097/display_1500/stock-photo-business-plan-business-sketches-on-the-office-whiteboard-184168097.jpg" alt="whiteboardimg">
     </div>
 
     <div id="audio-video">
@@ -110,13 +110,13 @@
 <footer>
 <details>
     <summary> Submit request</summary>
-    <form action="">
+    <form action="action.js">
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" value="John"><br>
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" value="Doe"><br>
         <label for="gender">Gender:</label><br>
-        <select name="gender">
+        <select name="gender" id="gender">
             <option value="">Please select one…</option>
             <option value="female">Female</option>
             <option value="male">Male</option>
