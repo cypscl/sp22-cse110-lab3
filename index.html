@@ -12,16 +12,15 @@
     <h3>04/12/2023    |     3:00 pm</h3>
     <p>Everyone <U><strong>MUST</strong></U> be here !</p>
     <nav>
-        <ul>
-            <li><a href="#attendance">Attendance</a></li>
-            <li><a href="#agenda">Agenda</a></li>
-            <li><a href="#unfinished business">Unfinished Business</a></li>
-            <li><a href="#new business">New Business</a></li>
-            <li><a href="#miscellanous comments">Miscellanous Comments</a></li>
-            <li><a href="#presented">Presented</a></li>
-            <li><a href="#audio-video">Audio & Video</a></li>
-        </ul>
+            <a href="#attendance">Attendance      |      </a>
+            <a href="#agenda">Agenda      |      </a></li>
+            <a href="#unfinished business">Unfinished Business      |      </a>
+            <a href="#new business">New Business      |      </a>
+            <a href="#miscellanous comments">Miscellanous Comments      |      </a>
+            <a href="#presented">Presented      |      </a>
+            <a href="#audio-video">Audio & Video</a>
     </nav>
+
     <br>
     <br>
     <div id="attendance list">
@@ -47,16 +46,19 @@
             <li>JavaScript</li>
             <li>Conclusion</li>
         </ol>
-        <div id="linkref">
-            <ul>
-                <li><a href="https://www.w3schools.com/html/">W3Schools HTML</a></li>
-                <li><a href="https://www.w3schools.com/css/">W3Schools CSS</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS">Cascading Style Sheets CSS</a></li>
-                <li><a href="https://www.w3schools.com/js/">W3Schools JavaScript</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript">JavaScript</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks">Frameworks</a></li>
-            </ul>
-        </div>
+        <details>
+            <summary> <strong><U> USEFUL LINKS </U></strong></summary>
+            <div id="linkref">
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/">W3Schools HTML</a></li>
+                    <li><a href="https://www.w3schools.com/css/">W3Schools CSS</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS">Cascading Style Sheets CSS</a></li>
+                    <li><a href="https://www.w3schools.com/js/">W3Schools JavaScript</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript">JavaScript</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks">Frameworks</a></li>
+                </ul>
+            </div>
+        </details>
     </div>
     <br>
     <div id="unfinished business">
@@ -104,4 +106,31 @@
     
     
 </body>
+<br><br><br>
+<footer>
+<details>
+    <summary> Submit request</summary>
+    <form action="">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br>
+        <label for="gender">Gender:</label><br>
+        <select name="gender">
+            <option value="">Please select one…</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="non-binary">Non-Binary</option>
+            <option value="other">Other</option>
+            <option value="Prefer not to answer">Perfer not to Answer</option>
+        </select><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="JohnDoe@gmail.com"><br>
+        <input type="submit" value="Submit">
+        
+    </form>
+</details>
+</footer>
 </html>
