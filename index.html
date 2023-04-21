@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab2 First HTML page</title>
+    <link rel="shortcut icon" href="screenshots/meme_this_is_fine_dog.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Lab3 HTML page adding CSS</title>
 </head>
 <body>
+    <header>
     <h1>Pascal's First Brainstrom</h1>
-    <h2>Topic of the meeting : Brainstorming about HTML</h2>
-    <h3>04/12/2023    |     3:00 pm</h3>
-    <p>Everyone <U><strong>MUST</strong></U> be here !</p>
-    <nav>
-            <a href="#attendance">Attendance      |      </a>
-            <a href="#agenda">Agenda      |      </a>
-            <a href="#unfinishedbusiness">Unfinished Business      |      </a>
-            <a href="#newbusiness">New Business      |      </a>
-            <a href="#miscellanouscomments">Miscellanous Comments      |      </a>
-            <a href="#presented">Presented      |      </a>
-            <a href="#audio-video">Audio & Video</a>
+    <nav class = "navMenu">
+        <ul class="menu">
+            <li><a href="#attendance">Attendance</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#unfinishedbusiness">Unfinished Business</a></li>
+            <li><a href="#newbusiness">New Business</a></li>
+            <li><a href="#miscellanouscomments">Miscellanous Comments</a></li>
+            <li><a href="#presented">Presented</a></li>
+            <li><a href="#audio-video">Audio & Video</a></li>
+        </ul>
     </nav>
-
-    <br>
-    <br>
+    </header>
+    <h2>Topic of the meeting : Brainstorming about HTML</h2>
+    <h3>04/12/2023 3:00 pm</h3>
     <div id="attendancelist">
         <h2>Attendance List</h2>
         <ul>
@@ -86,7 +88,7 @@
     </div>
     <div id="presented">
         <h2>Architecture / Things that were presented</h2>
-        <img src="screenshots/example.png" alt="example" width = 1024 height = 1024>
+        <img src="screenshots/example.png" alt="example">
         <img src="https://www.shutterstock.com/shutterstock/photos/184168097/display_1500/stock-photo-business-plan-business-sketches-on-the-office-whiteboard-184168097.jpg" alt="whiteboardimg">
     </div>
 
